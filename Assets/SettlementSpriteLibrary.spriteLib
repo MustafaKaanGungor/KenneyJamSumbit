@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Villages
+    m_Hash: 339053524
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: church
+      m_Hash: 281926981
+      m_Sprite: {fileID: 21300000, guid: b1997eb59fd48554ab9a8524645590ac, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b1997eb59fd48554ab9a8524645590ac, type: 3}
+    - m_Name: churchLarge
+      m_Hash: 884031438
+      m_Sprite: {fileID: 21300000, guid: d54bda1a4e6ba1149acf1b989b05a7cc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: d54bda1a4e6ba1149acf1b989b05a7cc, type: 3}
+    - m_Name: Dock
+      m_Hash: 571022559
+      m_Sprite: {fileID: 21300000, guid: d289f8b9dc0ac8e4bab963177d8ab7d6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: d289f8b9dc0ac8e4bab963177d8ab7d6, type: 3}
+    - m_Name: House
+      m_Hash: 638850713
+      m_Sprite: {fileID: 21300000, guid: 562af7320df77af419d994c327b4360f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 562af7320df77af419d994c327b4360f, type: 3}
+    - m_Name: HouseChimney
+      m_Hash: 820187885
+      m_Sprite: {fileID: 21300000, guid: 0195c559ca5ccdc49bd0808db8fdb015, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 0195c559ca5ccdc49bd0808db8fdb015, type: 3}
+    - m_Name: Houses
+      m_Hash: 310112509
+      m_Sprite: {fileID: 21300000, guid: 2ba68c7ef2680c040ae2ca329d9bfd58, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 2ba68c7ef2680c040ae2ca329d9bfd58, type: 3}
+    - m_Name: HouseSmall
+      m_Hash: 1049794806
+      m_Sprite: {fileID: 21300000, guid: ed79fbc6fa421fc4e96e17222b70391a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: ed79fbc6fa421fc4e96e17222b70391a, type: 3}
+    - m_Name: HouseTall
+      m_Hash: 680152898
+      m_Sprite: {fileID: 21300000, guid: 94c1b5b6abf766047a26d2cb17c7d78b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 94c1b5b6abf766047a26d2cb17c7d78b, type: 3}
+    - m_Name: Mill
+      m_Hash: 40937099
+      m_Sprite: {fileID: 21300000, guid: 4d352c709c47a1344bc3a54ad0e59f02, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 4d352c709c47a1344bc3a54ad0e59f02, type: 3}
+    - m_Name: Stable
+      m_Hash: 198419361
+      m_Sprite: {fileID: 21300000, guid: 2a565b70f182a2647a4d79bd2c66fec4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 2a565b70f182a2647a4d79bd2c66fec4, type: 3}
+    - m_Name: WaterWheel
+      m_Hash: 571950895
+      m_Sprite: {fileID: 21300000, guid: 9f6ac6e757696e4409173d6ba67904bc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 9f6ac6e757696e4409173d6ba67904bc, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 11
+  - m_Name: Castles
+    m_Hash: 558058641
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Castle
+      m_Hash: 46070046
+      m_Sprite: {fileID: 21300000, guid: 6a4d2b7d758d679478b164a7680b75f3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 6a4d2b7d758d679478b164a7680b75f3, type: 3}
+    - m_Name: CastleTall
+      m_Hash: 154477663
+      m_Sprite: {fileID: 21300000, guid: c1e73152dbc72ae4fa5e7b50dd8cb8db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: c1e73152dbc72ae4fa5e7b50dd8cb8db, type: 3}
+    - m_Name: CastleWide
+      m_Hash: 613869733
+      m_Sprite: {fileID: 21300000, guid: fc5dbd80404fbe449a0bc02f9cdba2d7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: fc5dbd80404fbe449a0bc02f9cdba2d7, type: 3}
+    - m_Name: CastleWideLow
+      m_Hash: 985525947
+      m_Sprite: {fileID: 21300000, guid: 34e538ea50dbeda4eae42642a8379767, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 34e538ea50dbeda4eae42642a8379767, type: 3}
+    - m_Name: Gate
+      m_Hash: 404305834
+      m_Sprite: {fileID: 21300000, guid: 2bb99917ddc603f499e282809b93c3ca, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 2bb99917ddc603f499e282809b93c3ca, type: 3}
+    - m_Name: Tower
+      m_Hash: 533432420
+      m_Sprite: {fileID: 21300000, guid: 291ca5dbcdb80494ea2eb978909d792c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 291ca5dbcdb80494ea2eb978909d792c, type: 3}
+    - m_Name: TowerLow
+      m_Hash: 452416601
+      m_Sprite: {fileID: 21300000, guid: 7098da85932b786408d5923bf5db16d7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 7098da85932b786408d5923bf5db16d7, type: 3}
+    - m_Name: TowerTall
+      m_Hash: 850281754
+      m_Sprite: {fileID: 21300000, guid: c2d240cbc186d8d4cac02f8becbde89a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: c2d240cbc186d8d4cac02f8becbde89a, type: 3}
+    - m_Name: TowerWatch
+      m_Hash: 1052165391
+      m_Sprite: {fileID: 21300000, guid: 02c206ba95cadbf4d9329a194bf930d1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 02c206ba95cadbf4d9329a194bf930d1, type: 3}
+    - m_Name: Wall
+      m_Hash: 868696264
+      m_Sprite: {fileID: 21300000, guid: a1ae19d197a2ca74a809670f3c20cf56, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: a1ae19d197a2ca74a809670f3c20cf56, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638570764232405109
+  m_Version: 1
