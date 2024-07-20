@@ -15,7 +15,7 @@ public class ConnectionManager : MonoBehaviour
                     SettlementScript.connection newConnection = new SettlementScript.connection
                     {
                         target = target,
-                        relationship = 0,
+                        relationship = 50,
                         isTrading = false
                     };
                     owner.connections.Add(newConnection);
