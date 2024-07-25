@@ -19,9 +19,11 @@ public class SettlementScript : MonoBehaviour
         public bool isTrading;
     }
 
-    Dictionary<InventoryItems, int> inventory = new Dictionary<InventoryItems, int>();
+    public Dictionary<InventoryItems, int> inventory = new Dictionary<InventoryItems, int>();
 
     public List<connection> connections = new List<connection>();
+
+    
 
     void OnMouseDown() {
         communicationPanel.gameObject.SetActive(true);
@@ -43,58 +45,7 @@ public class SettlementScript : MonoBehaviour
         hightlight.SetActive(false);
     }
 
-    private void Start() {
-        inventory.Add(InventoryItems.WOOD,0);
-        inventory.Add(InventoryItems.WOOL,0);
-        inventory.Add(InventoryItems.FOOD,0);
-        inventory.Add(InventoryItems.TOOL,0);
-        inventory.Add(InventoryItems.IRON,0);
-
-
-        int minVal = -1, maxVal = 2;
-        inventory[InventoryItems.WOOD] = Random.Range(minVal, maxVal);
-        if(inventory[InventoryItems.WOOD] == -1) {
-            minVal = 0;
-        } else if(inventory[InventoryItems.WOOD] > 0) {
-            maxVal = 0;
-        }
-
-        inventory[InventoryItems.WOOL] = Random.Range(minVal, maxVal);
-        minVal = -1;
-        maxVal = 2;
-        if(inventory[InventoryItems.WOOL] == -1) {
-            minVal = 0;
-        } else if(inventory[InventoryItems.WOOL] > 0) {
-            maxVal = 0;
-        }
-
-        inventory[InventoryItems.FOOD] = Random.Range(minVal, maxVal);
-        minVal = -1;
-        maxVal = 2;
-        if(inventory[InventoryItems.FOOD] == -1) {
-            minVal = 0;
-        } else if(inventory[InventoryItems.FOOD] > 0) {
-            maxVal = 0;
-        }
-
-        inventory[InventoryItems.TOOL] = Random.Range(minVal, maxVal);
-        minVal = -1;
-        maxVal = 2;
-        if(inventory[InventoryItems.TOOL] == -1) {
-            minVal = 0;
-        } else if(inventory[InventoryItems.TOOL] > 0) {
-            maxVal = 0;
-        }
-
-        inventory[InventoryItems.IRON] = Random.Range(minVal, maxVal);
-        minVal = -1;
-        maxVal = 2;
-        if(inventory[InventoryItems.IRON] == -1) {
-            minVal = 0;
-        } else if(inventory[InventoryItems.IRON] > 0) {
-            maxVal = 0;
-        }
-    }
+    
 }
 
 public enum InventoryItems {
